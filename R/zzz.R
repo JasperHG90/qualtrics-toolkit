@@ -19,8 +19,6 @@
         os <- "osx"
       if (grepl("linux-gnu", R.version$os))
         os <- "linux"
-    } else {
-      os <- "windows"
     }
 
     tolower(os)
